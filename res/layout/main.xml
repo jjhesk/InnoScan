@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backdrop"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QR code recognition"
+        android:textColor="#ffffff" />
+
+    <ImageButton 
+        android:id="@+id/scan_button"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_weight=".2"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_1391114290_84" />
+
+    <TextView
+        android:id="@+id/textbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Other actions"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/profile"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="@string/check_profile" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="@string/start_over" />
+
+    <ToggleButton
+        android:id="@+id/auto"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:textOff="@string/scanauto_off"
+        android:textOn="@string/scanauto_on" />
+
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:text=""
+        android:textColor="#dd33b5e5" />
+
+</LinearLayout>

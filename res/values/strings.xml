@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Inno-POS-Scan</string>
+    <string name="app_name_scan">Scan Now</string>
+    <string name="scan">Testing</string>
+    <string name="scanauto_on">Automatic Mode</string>
+    <string name="scanauto_off">Manual Mode</string>
+    <string name="check_profile">Check Customer\'s ID</string>
+    <string name="scanauto_notice">Scan the QR email code when the first step is success.</string>
+    <string name="start_over">Start to scan the next product</string>
+    <string name="code_verify1">Please go ahead and scan the code from the phone or the email print out. </string>
+    <string name="code_verify2">Scan Redeem QR code from the Email now!</string>
+    <string name="code_verify3">Scan Redeem QR code from the Phone now!</string>
+    <string name="emailcode_fail">The email code is invalid. Please try again or scan from the new redemption.</string>
+    <string name="emailcode_success">The redemption is successful!</string>
+    <string name="ready">This QR redemption code is ready to be verify. Please display the email confirmation QR code on the scan please.</string>
+    <string name="ok">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="redeem_id_card">Verified and Confirmed</string>
+    <string name="close">close</string>
+    <string name="loading">Loading...</string>
+    <string name="timeout">Timeout! you may try again</string>
+    <string name="about">About</string>
+    <string name="setting">Settings</string>
+    <!-- domain for testing app and production app -->
+    <string name="server_testing">http://devwp.innoactor.com/apigateway/</string>
+    <string name="server_production">http://devwp.innoactor.com/apigateway/</string>
+    <!-- warnings -->
+    <string name="warning_online_alert">Please connect your device to the internet.</string>
+
+</resources>
